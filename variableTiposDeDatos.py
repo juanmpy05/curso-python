@@ -7,27 +7,32 @@ Una variable es una palabra que puede almacenar algún tipo de dato y python man
 Además vamos a aprender el tipado dinámico.
 '''
 #Declaramos y imprimimos una variable de tipo numero y su tipo
-numero=10
-print (numero)
+numero = 10
+print(numero)
 print(type(numero))
 print("-------------")
+
 #Declaramos y imprimimos una variable y su tipo
-numeroComaFlotante=10.25
+numeroComaFlotante = 10.25
 print (numeroComaFlotante)
 print(type(numeroComaFlotante))
 print("-------------")
-texto="hola soy una serpiente 🐍"
-print (texto)
+
+texto = "hola soy una serpiente 🐍"
+print(texto)
 print(type(texto))
 print("-------------")
-booleano=True
-print (booleano)
+
+booleano = True
+print(booleano)
 print(type(booleano))
 print("-------------")
-suma=numero+numeroComaFlotante
+
+suma = numero + numeroComaFlotante
 print(suma)
 print(type(suma))
 print("-------------")
-suma=texto
+
+suma = texto
 print(suma)
 print(type(suma))
